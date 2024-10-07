@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ayush Portfolio</title>
+</head>
+<body>
+    
+    <!-- navigation menu -->
+     <nav>
+        <div id="home" class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Ayush</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a class="nav-link" href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a class="nav-link" href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a class="nav-link" href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a class="nav-link" href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a class="nav-link" href="#contact">Contact</a></div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+        </div>
+            <div class="dropdown">
+                <div class="links">
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+     </nav>
+     
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="images/illusion.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Ayush</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hey, How you doin! Need a Website? Contact me. I'm a skilled, primarily, Front-end Developer, Also learning Back-end. I build Responsive and User-Interactive websites for Businesses, Clinics, Gyms, you name it. I also offer other services like Video Editing, Copywriting and more, you can check out the Services section, to complement your digital needs. <br>Feel Free to Contact Me through my socials or click the button Below!</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/ayush_baliyan.001" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Ayushbaliyan_01" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ayush-baliyan-544050309/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/FATIH-Ayush" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="callAlert('You can reach out to me in any of the following ways: </br> </br> • Email: ab.ayush.baliyan@gmail.com </br> • Social Media: Check the links below </br> </br> Thank you for getting in touch!')">Contact Me!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About section start -->
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="images/illusion.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div id="abouthead" class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Working is my Passion</div>
+                    <p id="aboutp" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">I'm Ayush Baliyan, an 18-year-old Web Developer from India. I thrive on solving problems and turning ideas into beautifully crafted websites. While I specialize in Front-end development, I'm continuously expanding my skillset by learning Python to dive into Machine Learning, AI, and App Development. <br> <br>Work is my priority, and I believe in providing value through user-friendly, responsive designs that help businesses stand out. I've built a number of projects showcasing my creativity and attention to detail, which you can explore on my GitHub. <br> <br>I'm always looking for opportunities to collaborate and grow. If you're looking for someone with a fresh perspective, an adaptable mindset, and a drive for excellence, <br>let's connect!</p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button id="projectButton"><a id="projectButtonLink" href="https://github.com/FATIH-Ayush" target="_blank" rel="noopener noreferrer">My Projects</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- My Skill Section Start -->
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div id="skillstitle" class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Skills Reflect Our Knowledge
+                    </div>
+                    <p class="para" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">As a passionate Web Developer, I specialize in building modern, responsive websites using HTML, Vanilla CSS, Tailwind CSS, and JavaScript. I focus on delivering clean code and intuitive user experiences. My Technical Skills also extend to Python and Django, giving me the ability to work on both Front-end and Back-end Development when needed. <br> <br>In addition to web development, I have a creative side that shines through Video Editing. You can check out my work on Instagram @valuetrek, where I edit motivational and success-driven content. My versatility also includes Copywriting, where I craft compelling copy that helps businesses engage their audiences more effectively. <br> <br>I've also gained experience in Social Media Management (SMM), having successfully grown an Instagram account from 0 to 100K views in just 18 days, which you can learn more about in the Services section. Currently, I'm expanding my knowledge by diving into Digital Marketing, ensuring I stay at the forefront of today's evolving digital landscape.</p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">6</div>
+                        <div class="exp">
+                            Months Of <br/>
+                            Experience
+                        </div>
+                    </div>
+                </div>
+                <div id="skillboxes" class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">84%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Tailwind CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">72%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">69%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- My Services Section Start -->
+
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div id="servicesboxes" class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>I create sleek, responsive, and visually appealing Websites designed to elevate your business's online presence. With a focus on HTML, CSS, and JavaScript, I build intuitive, high-performance, SEO optimised sites that provide an exceptional User-Experience. Whether it's a fresh build or a redesign, I deliver results that are tailored to your brand and goals. To discuss how I can help elevate your project, via Web Development, feel free to Contact me!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Video Editing</div>
+                    <p>I bring stories to life through engaging and impactful Video Editing. From motivational content to promotional videos, I focus on delivering high-quality edits that captivate viewers and communicate your message effectively. I also edit and post videos on my secondary Instagram account @valuetrek, where I showcase my work in curating content that grabs attention and aligns with brand visions. For any inquiries about how I can help, regarding Video Editing, Reach out to Contact me!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>I specialize in helping businesses boost their online presence through tailored digital marketing strategies. By optimizing social media platforms and crafting effective campaigns, I focus on increasing engagement and driving meaningful results. I've successfully grown Social Media accounts and am dedicated to helping brands connect with their audience and expand their reach. For any discussion about how I can help your Business with Digital Marketing, Contact me!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Copywriting</div>
+                    <p>I craft compelling and persuasive copy that captures attention and drives action. Whether it's for websites, social media, or marketing campaigns, I focus on creating engaging content that resonates with your audience and aligns with your brand's voice. My goal is to help businesses communicate their message effectively and convert readers into loyal customers. For any inquiries or to discuss how I can help with Copywriting, Don't hesitate to Reach out!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">SMM</div>
+                    <p>I specialize in driving brand awareness and engagement through effective Social Media Marketing strategies. I successfully grew an Instagram account from 0 to 100K views in just 18 days, accumulating over 10K likes and 1K shares on my videos. While the account was sadly banned due to an authorization issue, I have proof of these achievements. My focus is on creating captivating content that not only resonates with your audience but also drives meaningful interactions. To discuss how I can help elevate your Social Media presence, You can always Contact me!</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Apps Development</div>
+                    <p>I am dedicated to creating innovative and user-friendly applications that address real-world challenges. With a focus on Python, I am expanding my expertise in App Development, including Mobile and Web Applications, along with exploring the integration of Machine Learning and AI. My aim is to build applications that not only meet user needs but also deliver exceptional experiences. For any inquiries regarding App Development, Be sure to Contact me!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Me Section Start -->
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                <div class="button">
+                    <button id="chatButton" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Let's Chat</button>
+                    <p id="chatMessage" style="display:none;"> <br> <br> You can reach out to me in one of the following ways: <br> <br> <span id="bulletText">Email: ab.ayush.baliyan@gmail.com</span> <span id="bulletText2">Social Media: Check the links below  </span>  </br> </br> Thank you for getting in touch! </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Ayush Baliyan</a> | &#169;2024 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+
+    <script>
+        function callAlert(msg) {
+            alert(msg, 10000)
+        }
+    </script>
+
+</body>
+</html>
